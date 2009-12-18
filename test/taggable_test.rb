@@ -7,9 +7,12 @@ class TaggableTest < Test::Unit::TestCase
       @tag_str  = "hoge, fuga, piyo"
     end
     
+    should "have the correct assoc" do
+      assert_not_nil Doc.associations["tags"]
+    end
+    
     should "have many tags" do
-      assert_not_nil Tag.associations["tags"]
-      assert_equal :many, Tag.associations["tags"].type
+      assert_equal :many, Doc.associations["tags"].type
     end
     
     should "respond to" do
