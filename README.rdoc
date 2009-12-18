@@ -4,6 +4,6 @@ Tagging for MongoMapper
 
 = installation
 
-The versioned gem is hosted on gemcutter.org:
+The taggable gem is hosted on gemcutter.org:
 
 * gem install taggable
