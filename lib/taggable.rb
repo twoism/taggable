@@ -6,7 +6,7 @@ module Taggable
  
     def tag_list=(tag_str)
       self.tags = []
-      split_tags.collect {|n| self.tags << Tag.find_or_create_by_name(n)}
+      split_tags(tag_str).collect {|n| self.tags << Tag.find_or_create_by_name(n)}
     end
   end
   
