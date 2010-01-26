@@ -7,3 +7,12 @@ Tagging for MongoMapper
 The taggable gem is hosted on gemcutter.org:
 
 * gem install taggable
+
+= usage
+
+    class Doc
+      include MongoMapper::Document
+      include Taggable
+      key :name, String, :required => true
+      timestamps!
+    end
