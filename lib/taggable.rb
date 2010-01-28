@@ -23,3 +23,5 @@ module Taggable
     end
   end
 end
+
+require "tag"
