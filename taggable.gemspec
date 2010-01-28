@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = %q{taggable}
-  s.version = "0.2.1"
+  s.version = "0.2.2"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["twoism"]
-  s.date = %q{2010-01-26}
+  s.date = %q{2010-01-27}
   s.description = %q{Tagging for MongoMapper}
   s.email = %q{signalstatic@gmail.com}
   s.extra_rdoc_files = [
