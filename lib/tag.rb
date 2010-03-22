@@ -1,3 +1,4 @@
+require 'mongo_mapper'
 class Tag 
   include MongoMapper::Document
   belongs_to :taggable, :polymorphic => true
